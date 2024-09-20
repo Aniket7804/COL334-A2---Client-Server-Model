@@ -152,6 +152,7 @@ int main() {
             }
         }
         close(new_sockfd);
+        break;
     }
     close(ori_sockfd);
 }
